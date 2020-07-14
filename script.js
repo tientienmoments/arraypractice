@@ -150,9 +150,8 @@ console.log("sume even number:",sumEven)
 let firstNa = inventors.reduce((total,name)=>{
 total += name.split(' ')[0]
 return total
-},' ')
-console.log (firstNa)
-
+},'')
+console.log ("first name:",firstNa)
 // Does any inventor have the letter 'y' in their name?
 let checkY = inventors.some(chr => chr === "y")
 console.log("Does any inventor have the letter 'y' in their name?",checkY)
