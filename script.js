@@ -172,5 +172,5 @@ let numberDivSeven = numbers.find(x => x%7===0)
 console.log (numberDivSeven)
 
 // Bonus: Return a new array, that only has the numbers that are not divisible by 7.
-let numberNotDivSeven = numbers.findIndex(x => x%7===1)
+let numberNotDivSeven = numbers.filter(x => x%7 !==0)
 console.log (numberNotDivSeven)
